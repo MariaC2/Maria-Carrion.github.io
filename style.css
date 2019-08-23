@@ -1,0 +1,108 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Baloo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo|Fira+Sans&display=swap');
+
+
+hr {
+  display: block;
+  height: 3.5px;
+  border: 0;
+  border-top: 0.5px solid black;
+  margin: 1em 0;
+  padding: 0;
+  background-color: #000079;
+}
+
+.medieval {
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+}
+
+.na {
+  font-family: 'Baloo', cursive;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  text-shadow: 0 0 6px purple, 0 0 13px lightblue;
+}
+
+.logo { 
+display: block;
+margin: auto;
+}
+
+.woo{
+  font-family: 'Baloo', cursive;
+  text-align: center;
+  text-decoration:underline
+    font-size: 80px;
+  color: #fff;
+  text-align: center;
+  
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+  
+  a{ 
+  text-decoration: none;
+    padding: 10px;
+    color: aquamarine
+  }
+  
+  a:hover{
+    color: aqua;
+    font: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+nav li {
+  background-color: #ccbbe8;
+  border-radius: 100px;
+  padding: 4.5px;
+  margin: 4px;
+  text-align: center;
+}
+  
+  nav a{
+    color: purple;
+  }
+
+a:hover{
+  color: black;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px purple, 0 0 20px purple, 0 0 30px purple, 0 0 40px purple, 0 0 50px purple, 0 0 60px purple, 0 0 70px purple;
+  }
+  to {
+    text-shadow: 0 0 20px lightblue, 0 0 30px lightblue, 0 0 40px lightblue, 0 0 50px lightblue, 0 0 60px lightblue, 0 0 70px lightblue, 0 0 80px lightblue;
+  }
+}
+
+  body {
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 25px;
+    font-size: 18px;
+    color: #444;
+    background-image: radial-gradient(circle, #ADD8E6, #ADD8E6, purple);
+}
+
+  nav li{
+    margin: 10px 40px 0px 0px;
+    text-align: center;
+    justify-content: center;
+  
+  }
+}
